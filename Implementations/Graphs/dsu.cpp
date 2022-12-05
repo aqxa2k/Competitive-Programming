@@ -1,5 +1,5 @@
 /** 
- * Description: Query if 2 nodes are in the same set, size and representative of node. Union disjoint sets. 
+ * Description: Disjoint set union. Size, same set, and head node
  * Verification: https://codeforces.com/contest/1764/problem/F
  * Time: O(log N) query and update
 **/
