@@ -4,7 +4,7 @@
 **/
 #include <iostream>
 using namespace std; 
-https://github.com/aqxa2k/Competitive-Programming/blob/main/Implementations/Watermelon.h
+
 int main() {
   ios_base::sync_with_stdio(0);  
   cin.tie(0); 
