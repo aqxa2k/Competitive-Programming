@@ -19,23 +19,3 @@ struct DSU {
 		return 1; 
 	}
 };
-
-
-/** 
- * Description: Finds minimum spanning tree 
- * Verification: https://codeforces.com/contest/1764/problem/F
- * Time: O(E log E + E log N) 
-**/
-// edge -> {weight, u, v}
-/*
-template <class T> vector<array<T, 3>> mst(int _n, vector<array<T, 3>> e) {
-	DSU d(_n); vector<array<T, 3>> ret; 
-	sort(e.begin(), e.end());
-	for (int i = 0; i < (int) e.size(); ++i) {
-		if (d.unite(e[i][1], e[i][2])) {
-			ret.push_back(e[i]); 
-		}
-	} 
-	return ret; 
-}
-*/
