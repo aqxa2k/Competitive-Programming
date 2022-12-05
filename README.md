@@ -1,4 +1,2 @@
 # Competitive-Programming
-Competitive-Programming - Basic Implementations
-
-Currently work in progress adding some implementations 
+Created 12/4/2022, currently adding some basic implementations whenever i feel like it 
