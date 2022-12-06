@@ -6,7 +6,8 @@
 
 template <class T> 
 class dijkstra {
-    const long long __inf_d = 9e18; 
+    //CHANGE MAXN IF IS INT 
+    const long long __inf_d = 9e18; //const int __inf_d = 1e9; 
     public: 
         int n; 
         vector<T> d; 
