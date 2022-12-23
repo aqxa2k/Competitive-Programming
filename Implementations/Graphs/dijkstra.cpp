@@ -28,6 +28,7 @@ class dijkstra {
             while (!q.empty()) {
                 pair<T, int> p = q.top();  q.pop(); 
                 T dist = p.first; int u = p.second; 
+                if (d[u] < dist) continue; 
                 for (pair<T, int> next: g[u]) {
                     int v = next.first; T next_dist = dist + next.second; 
                     if (next_dist < d[v]) {
